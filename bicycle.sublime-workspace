@@ -1,0 +1,1448 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"progress",
+				"progress_status_updation_date"
+			],
+			[
+				"order",
+				"order_form"
+			],
+			[
+				"rea",
+				"reason_owner"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"message",
+				"message_class"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"cus",
+				"customer"
+			],
+			[
+				"Cus",
+				"customer"
+			],
+			[
+				"it",
+				"item"
+			],
+			[
+				"di",
+				"disabled"
+			],
+			[
+				"close",
+				"closest"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"rep",
+				"replace_links"
+			],
+			[
+				"v",
+				"val"
+			],
+			[
+				"preg",
+				"preg_replace"
+			],
+			[
+				"st",
+				"string"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"ore",
+				"order_id"
+			],
+			[
+				"зач",
+				"заказчика"
+			],
+			[
+				"custom",
+				"customer"
+			],
+			[
+				"select",
+				"select_box"
+			],
+			[
+				"re",
+				"remove"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"pro",
+				"property"
+			],
+			[
+				"pos",
+				"pos:a	position:absolute"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"total",
+				"total_w"
+			],
+			[
+				"totl",
+				"total_w"
+			],
+			[
+				"clo",
+				"closest"
+			],
+			[
+				"sta",
+				"statuses"
+			],
+			[
+				"con",
+				"confirm_message"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"e",
+				"event"
+			],
+			[
+				"k",
+				"keyup"
+			],
+			[
+				"ke",
+				"keyCode"
+			],
+			[
+				"add",
+				"added"
+			],
+			[
+				"data-pro",
+				"data-product-id"
+			],
+			[
+				"cono",
+				"console"
+			],
+			[
+				"prod",
+				"product_id"
+			],
+			[
+				"ite",
+				"item_states"
+			],
+			[
+				"an",
+				"any"
+			],
+			[
+				"su",
+				"ad-notif-success"
+			],
+			[
+				"ch",
+				"check_caps"
+			],
+			[
+				"fi",
+				"function"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"white",
+				"white-space"
+			],
+			[
+				"com",
+				"com_id"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"p",
+				"product"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"hid",
+				"hidden"
+			],
+			[
+				"remov",
+				"remove"
+			],
+			[
+				"comp",
+				"component"
+			],
+			[
+				"product",
+				"products_path"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"Key",
+				"keyCode"
+			],
+			[
+				"c",
+				"click"
+			],
+			[
+				"w",
+				"w	width"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"cur",
+				"cur:p	cursor:pointer"
+			],
+			[
+				"price",
+				"price_one"
+			],
+			[
+				"pric",
+				"price_one"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"ima",
+				"image_name"
+			],
+			[
+				"r",
+				"role"
+			],
+			[
+				"o",
+				"options"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"O",
+				"O_o"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"m",
+				"min_length"
+			],
+			[
+				"th",
+				"throw	Throw Exception"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"pruct",
+				"product"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"stu",
+				"status_id"
+			],
+			[
+				"msg_rmove",
+				"msg_remove_from_shop_list"
+			],
+			[
+				"menu",
+				"menu_link"
+			],
+			[
+				"clea",
+				"clear_items"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"po",
+				"pos:a	position:absolute"
+			],
+			[
+				"b",
+				"bd	border"
+			],
+			[
+				"mh",
+				"mih	min-height"
+			],
+			[
+				"box-",
+				"box-shadow"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"cou",
+				"component_unit"
+			],
+			[
+				"bo",
+				"bootstrap"
+			],
+			[
+				"compon",
+				"components"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"pack",
+				"packages"
+			],
+			[
+				"co",
+				"components"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"t",
+				"tbody"
+			],
+			[
+				"curr",
+				"current_product_id"
+			],
+			[
+				"ком",
+				"компонент"
+			],
+			[
+				"btn_res",
+				"btn_reset_component"
+			],
+			[
+				"reset",
+				"reset_product_form"
+			],
+			[
+				"res",
+				"reset_product_form"
+			],
+			[
+				"sav",
+				"_save"
+			],
+			[
+				"components",
+				"components_path"
+			],
+			[
+				"fr",
+				"frm_add_component"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"componen",
+				"Component"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"slide",
+				"slideToggle"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"cm",
+				"component_id"
+			],
+			[
+				"poduct",
+				"product_name"
+			],
+			[
+				"produ",
+				"product"
+			],
+			[
+				"Comp",
+				"components"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"br",
+				"btn_edit_product"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"border-co",
+				"border-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Compass/Compass.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"intal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 129.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/I/Open Server/domains/platus.dev/public/js/events.messenger.js",
+		"/I/Open Server/domains/platus.dev/application/views/orders/index.blade.php",
+		"/I/Open Server/domains/platus.dev/.chrono_for_mobileka",
+		"/I/Open Server/domains/platus.dev/.chrono",
+		"/I/Open Server/domains/platus.dev/application/libraries/OrderComments.php",
+		"/I/Open Server/domains/platus.dev/application/models/ordermessage.php",
+		"/I/Open Server/domains/platus.dev/application/views/orders/update.blade.php",
+		"/I/Open Server/domains/platus.dev/public/js/events.order.js",
+		"/I/Open Server/domains/platus.dev/application/controllers/orders.php",
+		"/I/Open Server/domains/platus.dev/application/routes.php",
+		"/I/Open Server/domains/platus.dev/application/models/order.php",
+		"/I/Open Server/domains/platus.dev/application/models/user.php",
+		"/I/Open Server/domains/platus.dev/application/migrations/2013_03_17_062133_add_noticed_by_to_orders_table.php",
+		"/I/Open Server/domains/platus.dev/application/listeners/order.php",
+		"/I/Open Server/domains/platus.dev/application/models/base.php",
+		"/I/Open Server/domains/platus.dev/public/js/categories.js",
+		"/I/Open Server/domains/platus.dev/application/controllers/products.php",
+		"/I/Open Server/domains/platus.dev/application/controllers/ajax/products.php",
+		"/I/Open Server/domains/platus.dev/application/controllers/ajax/base.php",
+		"/I/Open Server/domains/platus.dev/application/models/product.php",
+		"/I/Open Server/domains/platus.dev/bundles/precedent/has_many_and_belongs_to.php",
+		"/I/Open Server/domains/platus.dev/bundles/precedent/model.php",
+		"/I/Open Server/domains/platus.dev/application/controllers/ajax/user_area.php",
+		"/I/Open Server/domains/platus.dev/application/libraries/Status.php",
+		"/I/Open Server/domains/platus.dev/application/sass/index.sass",
+		"/I/Open Server/domains/platus.dev/public/js/global.js",
+		"/I/Open Server/domains/platus.dev/application/views/user_area/index.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/user_area/_orders_list.blade.php",
+		"/I/Open Server/domains/platus.dev/public/js/events.message_list.js",
+		"/I/Open Server/domains/platus.dev/application/views/order/messages/show.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/user_area/show_order.blade.php",
+		"/I/Open Server/domains/platus.dev/application/models/customer.php",
+		"/I/Open Server/domains/platus.dev/application/config/acl.php",
+		"/I/Open Server/domains/platus.dev/application/views/user_area/update_order.blade.php",
+		"/I/Open Server/domains/platus.dev/application/controllers/users.php",
+		"/I/Open Server/domains/platus.dev/application/views/render/main_menu.blade.php",
+		"/I/Open Server/domains/platus.dev/application/libraries/Common.php",
+		"/I/Open Server/domains/platus.dev/application/controllers/base.php",
+		"/I/Open Server/domains/platus.dev/application/controllers/categories.php",
+		"/I/Open Server/domains/platus.dev/public/js/events.messanger.js",
+		"/I/Open Server/domains/platus.dev/application/views/customers/index.blade.php",
+		"/I/Open Server/domains/platus.dev/application/controllers/order/messages.php",
+		"/I/Open Server/domains/platus.dev/application/libraries/String.php",
+		"/I/Open Server/domains/platus.dev/application/views/categories/removed.blade.php",
+		"/I/Open Server/domains/platus.dev/application/libraries/ImageProcessor.php",
+		"/I/Open Server/domains/platus.dev/application/models/branch.php",
+		"/I/Open Server/domains/platus.dev/application/libraries/Layout.php",
+		"/I/Open Server/domains/platus.dev/application/models/category.php",
+		"/I/Open Server/domains/platus.dev/laravel/routing/router.php",
+		"/I/Open Server/domains/platus.dev/application/libraries/Tpl.php",
+		"/I/Open Server/domains/platus.dev/application/views/cities/index.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/users/deleted.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/units/deleted.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/groups/deleted.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/cities/deleted.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/branches/deleted.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/units/index.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/groups/index.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/branches/removed.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/branches/index.blade.php",
+		"/I/Open Server/domains/platus.dev/public/js/O_o.js",
+		"/I/Open Server/domains/platus.dev/application/libraries/Acl.php",
+		"/I/Open Server/domains/platus.dev/application/migrations/2013_03_07_181306_create_customers_table.php",
+		"/I/Open Server/domains/platus.dev/application/views/order/show.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/order/show_order.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/customers/create.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/customers/update.blade.php",
+		"/I/Open Server/domains/platus.dev/application/controllers/customers.php",
+		"/I/Open Server/domains/platus.dev/application/views/customers/show.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/branches/update.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/branches/create.blade.php",
+		"/I/Open Server/domains/platus.dev/application/language/ru/validation.php",
+		"/I/Open Server/domains/platus.dev/.mobileka_for_chrono",
+		"/I/Open Server/domains/platus.dev/application/views/product_manager/_categories.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/render/top_menu.blade.php",
+		"/I/Open Server/domains/platus.dev/laravel/form.php",
+		"/I/Open Server/domains/platus.dev/application/views/order/messages/index.blade.php",
+		"/I/Open Server/domains/platus.dev/application/controllers/login.php",
+		"/I/Open Server/domains/platus.dev/.mobileka",
+		"/I/Open Server/domains/platus.dev/application/models/readmessage.php",
+		"/I/Open Server/domains/platus.dev/public/css/login.css",
+		"/I/Open Server/domains/platus.dev/laravel/messages.php",
+		"/I/Open Server/domains/platus.dev/application/models/readmessages.php",
+		"/I/Open Server/domains/platus.dev/application/views/render/user_panel.blade.php",
+		"/I/Open Server/domains/platus.dev/laravel/html.php",
+		"/I/Open Server/domains/platus.dev/laravel/url.php",
+		"/I/Open Server/domains/platus.dev/application/config/application.php",
+		"/I/Open Server/domains/platus.dev/public/css/ad.css",
+		"/I/Open Server/domains/platus.dev/application/views/orders/messages/index.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/orders/messages/order.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/users/index.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/messages/index.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/messages/order.blade.php",
+		"/I/Open Server/domains/platus.dev/application/controllers/orders/messages.php",
+		"/I/Open Server/domains/platus.dev/public/css/bootstrap/bootstrap.css",
+		"/I/Open Server/domains/platus.dev/application/views/components/index.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/categories/items.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/users/update.blade.php",
+		"/I/Open Server/domains/platus.dev/application/libraries/Generate.php",
+		"/I/Open Server/domains/platus.dev/application/views/users/create.blade.php",
+		"/I/Open Server/domains/platus.dev/laravel/view.php",
+		"/I/Open Server/domains/platus.dev/application/views/user_area/_products_list.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/users/profile.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/tests/create.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/groups/update.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/groups/create.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/components/update.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/components/create.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/cities/update.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/cities/create.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/categories/update.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/categories/create.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/units/create.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/units/update.blade.php",
+		"/I/Open Server/domains/platus.dev/storage/views/66ab25fd763080f8058f700953228d43",
+		"/I/Open Server/domains/platus.dev/application/views/tests/index.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/login/login.blade.php",
+		"/I/Open Server/domains/platus.dev/public/js/events.login.js",
+		"/I/Open Server/domains/platus.dev/public/js/moment.ru.js",
+		"/I/Open Server/domains/platus.dev/license.txt",
+		"/I/Open Server/domains/platus.dev/application/views/user_area/_product_select.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/layouts/default.blade.php",
+		"/I/Open Server/domains/platus.dev/application/views/render/modal.blade.php",
+		"/I/Open Server/domains/platus.dev/application/libraries/MenuItem.php",
+		"/I/Open Server/domains/platus.dev/laravel/cookie.php",
+		"/I/Open Server/domains/platus.dev/application/libraries/Menu.php",
+		"/I/Open Server/domains/platus.dev/public/js/moment.js",
+		"/I/Open Server/domains/platus.dev/application/start.php"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"created",
+			"producted_by",
+			"noticed_by",
+			"created_by",
+			"<div class=\"form-row well\">",
+			"создан",
+			"add_product_category",
+			"out",
+			"orders",
+			"manager-cancel-cancel",
+			"order",
+			"$message_class",
+			"form-row",
+			"producted_at",
+			"producted",
+			"produc",
+			"base",
+			"base64_encode",
+			"remo",
+			"btn-del",
+			"center",
+			"image",
+			"save_image",
+			"$this->names",
+			"type",
+			"deleted",
+			"remov",
+			"tip",
+			"tool",
+			"user_area_products",
+			"$deleted",
+			"deleted.blade.php",
+			"class=\"actions\"",
+			"orders",
+			"count",
+			"''",
+			"ci",
+			"email",
+			"city",
+			"cities",
+			"<div class=\"form-item\">",
+			".styler();",
+			"btn-del",
+			"112",
+			"('.removing",
+			"btn_edit_product",
+			"min_length",
+			"minutes",
+			"$order->id",
+			"orders/show",
+			"set_last_read_message",
+			"orders",
+			"				console.warn(dt[0].user);\npersonal_area",
+			"login",
+			"order/message",
+			"com",
+			"loading",
+			"file",
+			"delete",
+			"'lock'",
+			"lock",
+			"b94a48",
+			"lock",
+			"lock_color_text",
+			"unlock_color_text",
+			"lock_color_end",
+			"lock_color_start",
+			"  ",
+			"btn-da",
+			"btn",
+			"current_product",
+			".product_name",
+			"#user_area_products .product_name",
+			"order_",
+			"summ_product_prices",
+			"total_summ",
+			".ad-notif-success p",
+			"'Удалить",
+			"iconBtn",
+			"O_o.confirm",
+			"Удалить",
+			"Сохранить",
+			"added",
+			"btn_order_product",
+			"add_product_category",
+			"btn_move_product",
+			"<?php if($branch->status==-1) continue; ?>",
+			"eye-close",
+			"close",
+			"eye-close",
+			"Заблокировать",
+			"k",
+			"icon-minus-sign",
+			"админ",
+			"icon-list-alt",
+			"product_select",
+			"btn_pack_product",
+			"order",
+			":visible",
+			"clone",
+			"tr.prod",
+			"attr",
+			"label",
+			"select",
+			"replace",
+			"O_o.",
+			"O_o.caps_lock",
+			"capsLockEnabled",
+			"checkCapsWarning",
+			"c",
+			"keyCode",
+			"order",
+			");\n",
+			"btn_order_product",
+			"add_product_category",
+			"add_prod",
+			"added",
+			"product_select",
+			"btn_move_product",
+			"btn_remove_product",
+			"modal",
+			"resiz",
+			"hello",
+			"();\n",
+			"waiting",
+			"{{ HTML",
+			"}}",
+			" }}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"produced_by",
+			"	",
+			"return"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 286.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"usarup",
+				"application/views/user_area/update_order.blade.php"
+			],
+			[
+				"sass",
+				"application/sass/index.sass"
+			],
+			[
+				"message_list",
+				"public/js/events.message_list.js"
+			],
+			[
+				"event",
+				"public/js/events.messenger.js"
+			],
+			[
+				"viewordermess",
+				"application/views/order/messages/show.blade.php"
+			],
+			[
+				".chrono",
+				".chrono"
+			],
+			[
+				"orderc",
+				"application/libraries/OrderComments.php"
+			],
+			[
+				"orderm",
+				"application/models/ordermessage.php"
+			],
+			[
+				"chr",
+				".chrono"
+			],
+			[
+				"chrono",
+				".chrono_for_mobileka"
+			],
+			[
+				"ordersindex",
+				"application/views/orders/index.blade.php"
+			],
+			[
+				"order",
+				"application/models/order.php"
+			],
+			[
+				"user",
+				"application/models/user.php"
+			],
+			[
+				"precedent",
+				"bundles/precedent/has_many_and_belongs_to.php"
+			],
+			[
+				"precedentmo",
+				"bundles/precedent/model.php"
+			],
+			[
+				"base",
+				"application/models/base.php"
+			],
+			[
+				"product",
+				"application/models/product.php"
+			],
+			[
+				"ajaxbase",
+				"application/controllers/ajax/base.php"
+			],
+			[
+				"ajaxpro",
+				"application/controllers/ajax/products.php"
+			],
+			[
+				"pro",
+				"application/controllers/products.php"
+			],
+			[
+				"categ",
+				"public/js/categories.js"
+			],
+			[
+				"modeluser",
+				"application/models/user.php"
+			],
+			[
+				"status",
+				"application/libraries/Status.php"
+			],
+			[
+				"routes",
+				"application/routes.php"
+			],
+			[
+				"ordersupd",
+				"application/views/orders/update.blade.php"
+			],
+			[
+				"orders",
+				"application/controllers/orders.php"
+			],
+			[
+				"eventso",
+				"public/js/events.order.js"
+			],
+			[
+				"userarea",
+				"application/controllers/ajax/user_area.php"
+			],
+			[
+				"mob",
+				".chrono_for_mobileka"
+			],
+			[
+				"eve",
+				"public/js/events.order.js"
+			],
+			[
+				"global",
+				"public/js/global.js"
+			],
+			[
+				"ordersup",
+				"application/views/orders/update.blade.php"
+			],
+			[
+				"messege",
+				"public/js/events.messenger.js"
+			],
+			[
+				"customer",
+				"application/models/customer.php"
+			],
+			[
+				"events",
+				"public/js/events.order.js"
+			],
+			[
+				"users",
+				"application/controllers/users.php"
+			],
+			[
+				"user_areaupoda",
+				"application/views/user_area/update_order.blade.php"
+			],
+			[
+				"viewuserareauoda",
+				"application/views/user_area/update_order.blade.php"
+			],
+			[
+				"usare",
+				"application/controllers/ajax/user_area.php"
+			],
+			[
+				"user_areupda",
+				"application/views/user_area/update_order.blade.php"
+			],
+			[
+				"libstat",
+				"application/libraries/Status.php"
+			],
+			[
+				"",
+				"application/views/render/main_menu.blade.php"
+			],
+			[
+				"rendermenu",
+				"application/views/render/main_menu.blade.php"
+			],
+			[
+				"mobil",
+				".chrono_for_mobileka"
+			],
+			[
+				"acl",
+				"application/config/acl.php"
+			],
+			[
+				"mess",
+				"public/js/events.messenger.js"
+			],
+			[
+				"useraraup",
+				"application/views/user_area/update_order.blade.php"
+			],
+			[
+				"rendemen",
+				"application/views/render/main_menu.blade.php"
+			],
+			[
+				"branch",
+				"application/models/branch.php"
+			],
+			[
+				"imagepr",
+				"application/libraries/ImageProcessor.php"
+			],
+			[
+				"image",
+				"application/libraries/ImageProcessor.php"
+			],
+			[
+				"main",
+				"application/views/render/main_menu.blade.php"
+			],
+			[
+				"categore",
+				"application/controllers/categories.php"
+			],
+			[
+				"layout",
+				"application/libraries/Layout.php"
+			],
+			[
+				"category",
+				"application/models/category.php"
+			],
+			[
+				"router",
+				"laravel/routing/router.php"
+			],
+			[
+				"controlbase",
+				"application/controllers/base.php"
+			],
+			[
+				"renderma",
+				"application/views/render/main_menu.blade.php"
+			],
+			[
+				"vieworder",
+				"application/views/user_area/update_order.blade.php"
+			],
+			[
+				"tpl",
+				"application/libraries/Tpl.php"
+			],
+			[
+				"userareaupda",
+				"application/views/user_area/update_order.blade.php"
+			],
+			[
+				"custoinde",
+				"application/views/customers/index.blade.php"
+			],
+			[
+				"index.sass",
+				"application/sass/index.sass"
+			],
+			[
+				"o_o",
+				"public/js/O_o.js"
+			],
+			[
+				"route",
+				"application/routes.php"
+			],
+			[
+				"customerindex",
+				"application/views/customers/index.blade.php"
+			],
+			[
+				"custome",
+				"application/models/customer.php"
+			],
+			[
+				"user_area",
+				"application/controllers/ajax/user_area.php"
+			],
+			[
+				"index",
+				"application/sass/index.sass"
+			],
+			[
+				"globa",
+				"public/js/global.js"
+			],
+			[
+				"customers",
+				"application/controllers/customers.php"
+			],
+			[
+				"user_ain",
+				"application/views/user_area/index.blade.php"
+			],
+			[
+				"user_",
+				"application/controllers/ajax/user_area.php"
+			],
+			[
+				"orderindex",
+				"application/views/orders/index.blade.php"
+			],
+			[
+				"branupda",
+				"application/views/branches/update.blade.php"
+			],
+			[
+				"usershow",
+				"application/views/user_area/show_order.blade.php"
+			],
+			[
+				"braupda",
+				"application/views/branches/update.blade.php"
+			],
+			[
+				"mblkf",
+				".mobileka_for_chrono"
+			],
+			[
+				"ruvalida",
+				"application/language/ru/validation.php"
+			],
+			[
+				"ajaxuser",
+				"application/controllers/ajax/user_area.php"
+			],
+			[
+				"updateorder",
+				"application/views/user_area/update_order.blade.php"
+			],
+			[
+				"show",
+				"application/views/user_area/show_order.blade.php"
+			],
+			[
+				"messages",
+				"application/controllers/order/messages.php"
+			],
+			[
+				"messagesshow",
+				"application/views/order/messages/show.blade.php"
+			],
+			[
+				"ordersinx",
+				"application/views/orders/index.blade.php"
+			],
+			[
+				"ordercomm",
+				"application/libraries/OrderComments.php"
+			],
+			[
+				"index.sas",
+				"application/sass/index.sass"
+			],
+			[
+				"form",
+				"laravel/form.php"
+			],
+			[
+				"messagesindex",
+				"application/views/order/messages/index.blade.php"
+			],
+			[
+				"chrnmob",
+				".chrono_for_mobileka"
+			],
+			[
+				"chrn",
+				".chrono"
+			],
+			[
+				"ordersupda",
+				"application/views/orders/update.blade.php"
+			],
+			[
+				"message",
+				"application/controllers/order/messages.php"
+			],
+			[
+				"chrnm",
+				".chrono_for_mobileka"
+			],
+			[
+				".mobileka",
+				".mobileka"
+			],
+			[
+				".chr",
+				".chrono"
+			],
+			[
+				"librarorder",
+				"application/libraries/OrderComments.php"
+			],
+			[
+				"controllerlogin",
+				"application/controllers/login.php"
+			],
+			[
+				"login",
+				"public/css/login.css"
+			],
+			[
+				"ordermess",
+				"application/models/ordermessage.php"
+			],
+			[
+				"ordermessa",
+				"application/models/ordermessage.php"
+			],
+			[
+				"rous",
+				"application/routes.php"
+			],
+			[
+				"ro",
+				"application/routes.php"
+			],
+			[
+				"ordercomments",
+				"application/libraries/OrderComments.php"
+			],
+			[
+				"ordermessage",
+				"application/controllers/order/messages.php"
+			],
+			[
+				"ordersinde",
+				"application/views/orders/index.blade.php"
+			],
+			[
+				"appl",
+				"application/config/application.php"
+			],
+			[
+				"url",
+				"laravel/url.php"
+			],
+			[
+				"html",
+				"laravel/html.php"
+			],
+			[
+				"braindex",
+				"application/views/branches/index.blade.php"
+			],
+			[
+				"ad.css",
+				"public/css/ad.css"
+			],
+			[
+				"o_",
+				"public/js/O_o.js"
+			],
+			[
+				"usersindex",
+				"application/views/users/index.blade.php"
+			],
+			[
+				"boot",
+				"public/css/bootstrap/bootstrap.css"
+			],
+			[
+				"user_arelist",
+				"application/views/user_area/_orders_list.blade.php"
+			],
+			[
+				"categori",
+				"public/js/categories.js"
+			],
+			[
+				"user_areaindex",
+				"application/views/user_area/index.blade.php"
+			],
+			[
+				"userscreate",
+				"application/views/users/create.blade.php"
+			],
+			[
+				"genere",
+				"application/libraries/Generate.php"
+			],
+			[
+				"usersupdate",
+				"application/views/users/update.blade.php"
+			],
+			[
+				"viewusersindex",
+				"application/views/users/index.blade.php"
+			],
+			[
+				"view.php",
+				"laravel/view.php"
+			],
+			[
+				"la",
+				"application/libraries/Layout.php"
+			],
+			[
+				"user_areaorder",
+				"application/views/user_area/update_order.blade.php"
+			],
+			[
+				"citiesindex",
+				"application/views/cities/index.blade.php"
+			],
+			[
+				"user_areaupda",
+				"application/views/user_area/update_order.blade.php"
+			],
+			[
+				"glob",
+				"public/js/global.js"
+			],
+			[
+				"cat",
+				"public/js/categories.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/I/Open Server/domains/deathnote.chrono.kz/deathnote.chrono.kz.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true
+}
