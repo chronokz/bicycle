@@ -4,9 +4,10 @@ class Admin_Page_Controller extends Admin_Controller
 {
 	public $view = 'page.';
 
+
 	public function get_index()
 	{
-		return Layout::admin($this->view.'index',$this->data);
+		return Layout::admin($this->view.'index');
 	}
 
 	public function get_logout(){

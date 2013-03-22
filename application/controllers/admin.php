@@ -2,7 +2,9 @@
 
 class Admin_Controller extends Base_Controller {
 
+
     public $restful = true;
+    public $name = '';
 
     // Our first stuff
     public function __construct(){
@@ -16,6 +18,8 @@ class Admin_Controller extends Base_Controller {
 
         // Get the user details from when they logged in / old sessions
     	$this->data['user'] = Auth::user();
+
+        //$this->name = __($this->name);
     }
 
     /**

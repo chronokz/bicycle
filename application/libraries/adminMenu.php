@@ -25,6 +25,11 @@ class AdminMenu{
 			);
 	}
 
+	public static function getCurrentItem()
+	{
+		//array_search()
+	}
+
 	public static function compile($attributes=array())
 	{
 		$result = '<ul'.HTML::attributes($attributes).'>';
@@ -33,7 +38,7 @@ class AdminMenu{
 			$active = false;
 			if($item['link'] !== false)
 				$link = ' href="'.url(static::$url_admin.$item['link']).'"';
-			if(URI::segment(2) == $item['link'])
+			if(URI::segment(2) == $item['link'] && $item['link'] !== false)
 				$active = true;
 
 			$sub_items = static::compile_submenu($i);

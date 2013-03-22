@@ -122,7 +122,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="{{ URL::to('admin/logout') }}" class="button">
+				<a href="{{ url('admin/logout') }}" class="button">
 					<i class="icon-signout"></i>
 					Logout
 				</a>
@@ -187,6 +187,7 @@
 		<div id="content" style="padding-top: 40px;">
 			<div class="page-header">
 				<div class="pull-left">
+					
 					<h4><i class="icon-table"></i> Tables</h4>
 				</div>
 				<div class="pull-right">

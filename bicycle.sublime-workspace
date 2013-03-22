@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"htm",
+				"htmlentities"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"comp",
+				"compile_submenu"
+			],
+			[
+				"sub",
+				"sub_items"
+			],
+			[
+				"url",
+				"url_admin"
+			],
+			[
+				"s",
+				"sub_item"
+			],
+			[
 				"progress",
 				"progress_status_updation_date"
 			],
@@ -236,10 +260,6 @@
 				"remove"
 			],
 			[
-				"comp",
-				"component"
-			],
-			[
 				"product",
 				"products_path"
 			],
@@ -428,10 +448,6 @@
 				"reset_product_form"
 			],
 			[
-				"res",
-				"reset_product_form"
-			],
-			[
 				"sav",
 				"_save"
 			],
@@ -498,15 +514,86 @@
 			[
 				"json",
 				"json_encode"
-			],
-			[
-				"border-co",
-				"border-color"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "application/views/admin/layout.blade.php",
+			"settings":
+			{
+				"buffer_size": 47728,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/views/admin/nav.blade.php",
+			"settings":
+			{
+				"buffer_size": 3455,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/controllers/admin/dash.php",
+			"settings":
+			{
+				"buffer_size": 617,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/libraries/adminMenu.php",
+			"settings":
+			{
+				"buffer_size": 1962,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/controllers/admin.php",
+			"settings":
+			{
+				"buffer_size": 948,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/controllers/admin/page.php",
+			"settings":
+			{
+				"buffer_size": 528,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php\nAdminMenu::addItem('home', 'Dashboard', '');\n\nAdminMenu::addItem('font', 'Pages', 'page');\n\nAdminMenu::addItem('user', 'Users');\nAdminMenu::addSubItem('Users', 'users');\nAdminMenu::addSubItem('Roles', 'roles');\n\necho AdminMenu::compile(array(\n		'class'=> 'mainNav',\n		'data-open-subnavs' => 'multi'\n	));\n?>\n\n<!--ul class=\"mainNav\" data-open-subnavs=\"multi\">\n	<li>\n		<a href=\"<?php echo  url('admin') ; ?>\"><i class=\"icon-home icon-white\"></i><span>Dashboard</span></a>\n	</li>\n	<li>\n		<a href=\"<?php echo  url('admin/page') ; ?>\"><i class=\"icon-font icon-white\"></i><span>Pages</span></a>\n	</li>\n	<li>\n		<a href=\"\"><i class=\"icon-user icon-white\"></i><span>Users</span></a>\n		<ul class=\"subnav\">\n			<li>\n				<a href=\"<?php echo  url('admin/users') ; ?>\">Users</a>\n			</li>\n			<li>\n				<a href=\"<?php echo  url('admin/roles') ; ?>\">Roles</a>\n			</li>\n		</ul>\n	</li>\n</ul-->\n<!-- All menu\n\n<ul class=\"mainNav\" data-open-subnavs=\"multi\">\n	<li>\n		<a href=\"http://www.eakroko.de/ease/dashboard.html\"><i class=\"icon-home icon-white\"></i><span>Dashboard</span></a>\n	</li>\n	<li>\n		<a href=\"\"><i class=\"icon-edit icon-white\"></i><span>Forms</span><span class=\"label\">4</span></a>\n		<ul class=\"subnav\">\n			<li>\n				<a href=\"http://www.eakroko.de/ease/basic-forms.html\">Basic forms</a>\n			</li>\n			<li>\n				<a href=\"http://www.eakroko.de/ease/extended-forms.html\">Extended form elements</a>\n			</li>\n			<li>\n				<a href=\"http://www.eakroko.de/ease/form-validation.html\">Form validation</a>\n			</li>\n			<li>\n				<a href=\"http://www.eakroko.de/ease/form-wizard.html\">Form wizard</a>\n			</li>\n		</ul>\n	</li>\n	<li>\n		<a href=\"\"><i class=\"icon-th-large icon-white\"></i><span>Components</span><span class=\"label\">6</span></a>\n		<ul class=\"subnav\">\n			<li>\n				<a href=\"http://www.eakroko.de/ease/messages.html\">Messages &amp; Chat</a>\n			</li>\n			<li>\n				<a href=\"http://www.eakroko.de/ease/gallery.html\">Gallery &amp; thumbs</a>\n			</li>\n			<li>\n				<a href=\"http://www.eakroko.de/ease/icons-buttons.html\">Icons &amp; buttons</a>\n			</li>\n			<li>\n				<a href=\"http://www.eakroko.de/ease/ui-elements.html\">UI Elements</a>\n			</li>\n			<li>\n				<a href=\"http://www.eakroko.de/ease/bootstrap-elements.html\">Bootstrap elements</a>\n			</li>\n			<li>\n				<a href=\"http://www.eakroko.de/ease/grid.html\">Grid</a>\n			</li>\n		</ul>\n	</li>\n	<li>\n		<a href=\"http://www.eakroko.de/ease/charts.html\"><i class=\"icon-signal icon-white\"></i><span>Charts</span></a>\n	</li>\n	<li class=\"active\">\n		<a href=\"./tables_files/tables.html\"><i class=\"icon-th-list icon-white\"></i><span>Tables</span></a>\n	</li>\n	<li>\n		<a href=\"http://www.eakroko.de/ease/error-pages.html\"><i class=\"icon-warning-sign icon-white\"></i><span>Error Pages</span></a>\n	</li>\n	<li>\n		<a href=\"http://www.eakroko.de/ease/calendar.html\"><i class=\"icon-calendar icon-white\"></i><span>Calendar</span></a>\n	</li>\n	<li>\n		<a href=\"http://www.eakroko.de/ease/file-management.html\"><i class=\"icon-hdd icon-white\"></i><span>File management</span></a>\n	</li>\n	<li>\n		<a href=\"\"><i class=\"icon-th icon-white\"></i><span>More pages</span><span class=\"label\">4</span></a>\n		<ul class=\"subnav\">\n			<li>\n				<a href=\"http://www.eakroko.de/ease/invoice.html\">Invoice</a>\n			</li>\n			<li>\n				<a href=\"http://www.eakroko.de/ease/search-page.html\">Search page</a>\n			</li>\n			<li>\n				<a href=\"http://www.eakroko.de/ease/user-profile.html\">User profile</a>\n			</li>\n			<li>\n				<a href=\"http://www.eakroko.de/ease/blank-page.html\">Blank page</a>\n			</li>\n		</ul>\n	</li>\n</ul>\n-->",
+			"file": "storage/views/3b92d2f9982e5c93204799f71c7a46ce",
+			"file_size": 3612,
+			"file_write_time": 130084525111841564,
+			"settings":
+			{
+				"buffer_size": 3499,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/libraries/layout.php",
+			"settings":
+			{
+				"buffer_size": 396,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/I/Open Server/domains/platus.dev/application/libraries/Layout.php",
+			"settings":
+			{
+				"buffer_size": 2776,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "Packages/Compass/Compass.sublime-build",
 	"command_palette":
@@ -560,6 +647,25 @@
 	},
 	"file_history":
 	[
+		"/I/Open Server/domains/bicycle/laravel/cache/drivers/wincache.php",
+		"/I/Open Server/domains/bicycle/application/controllers/admin/page.php",
+		"/I/Open Server/domains/bicycle/application/views/admin/inc/sidebar.php",
+		"/I/Open Server/domains/bicycle/application/views/admin/dash/index.php",
+		"/I/Open Server/domains/bicycle/application/libraries/adminMenu.php",
+		"/I/Open Server/domains/bicycle/laravel/html.php",
+		"/I/Open Server/domains/bicycle/application/libraries/menu.php",
+		"/I/Open Server/domains/bicycle/public/css/admin/jquery.gritter.css",
+		"/I/Open Server/domains/bicycle/public/css/admin/style.css",
+		"/I/Open Server/domains/bicycle/public/js/admin/TableTools.min.js",
+		"/I/Open Server/domains/bicycle/public/js/admin/eakroko.min.js",
+		"/I/Open Server/domains/bicycle/application/views/admin/layout.blade.php",
+		"/I/Open Server/domains/bicycle/public/js/admin/demonstration.min.js",
+		"/I/Open Server/domains/bicycle/application/views/site/layout.blade.php",
+		"/I/Open Server/domains/bicycle/application/libraries/layout.php",
+		"/I/Open Server/domains/bicycle/application/views/admin/page/index.blade.php",
+		"/I/Open Server/domains/bicycle/application/routes.php",
+		"/I/Open Server/domains/bicycle/application/views/admin/page",
+		"/I/Open Server/domains/bicycle/application/controllers/admin.php",
 		"/I/Open Server/domains/bicycle/application/views/admin/inc/meta.php",
 		"/I/Open Server/domains/bicycle/application/views/admin/users/index.php",
 		"/I/Open Server/domains/bicycle/application/views/admin/users/form.php",
@@ -567,10 +673,7 @@
 		"/I/Open Server/domains/bicycle/application/views/admin/roles/form.php",
 		"/I/Open Server/domains/bicycle/application/views/admin/login.php",
 		"/I/Open Server/domains/bicycle/application/views/admin/index.php",
-		"/I/Open Server/domains/bicycle/application/views/admin/inc/sidebar.php",
 		"/I/Open Server/domains/bicycle/application/views/admin/inc/header.php",
-		"/I/Open Server/domains/bicycle/application/routes.php",
-		"/I/Open Server/domains/bicycle/application/views/site/layout.blade.php",
 		"/I/Open Server/domains/bicycle/application/start.php",
 		"/I/Open Server/domains/bicycle/application/views/site/travel/view.blade.php",
 		"/I/Open Server/domains/bicycle/application/views/site/home.blade.php",
@@ -580,7 +683,6 @@
 		"/I/Open Server/domains/bicycle/application/controllers/admin/roles.php",
 		"/I/Open Server/domains/bicycle/application/controllers/admin/pages.php",
 		"/I/Open Server/domains/bicycle/application/controllers/admin/dash.php",
-		"/I/Open Server/domains/bicycle/application/libraries/layout.php",
 		"/I/Open Server/domains/bicycle/application/config/application.php",
 		"/I/Open Server/domains/bicycle/readme.md",
 		"/I/Open Server/domains/bicycle/.gitignore",
@@ -672,22 +774,7 @@
 		"/I/Open Server/domains/platus.dev/laravel/url.php",
 		"/I/Open Server/domains/platus.dev/application/config/application.php",
 		"/I/Open Server/domains/platus.dev/public/css/ad.css",
-		"/I/Open Server/domains/platus.dev/application/views/orders/messages/index.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/orders/messages/order.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/users/index.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/messages/index.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/messages/order.blade.php",
-		"/I/Open Server/domains/platus.dev/application/controllers/orders/messages.php",
-		"/I/Open Server/domains/platus.dev/public/css/bootstrap/bootstrap.css",
-		"/I/Open Server/domains/platus.dev/application/views/components/index.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/categories/items.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/users/update.blade.php",
-		"/I/Open Server/domains/platus.dev/application/libraries/Generate.php",
-		"/I/Open Server/domains/platus.dev/application/views/users/create.blade.php",
-		"/I/Open Server/domains/platus.dev/laravel/view.php",
-		"/I/Open Server/domains/platus.dev/application/views/user_area/_products_list.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/users/profile.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/tests/create.blade.php"
+		"/I/Open Server/domains/platus.dev/application/views/orders/messages/index.blade.php"
 	],
 	"find":
 	{
@@ -695,9 +782,10 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
+			"I:\\Open Server\\domains\\bicycle\\public\\js\\admin",
 			""
 		]
 	},
@@ -706,6 +794,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"http://www.eakroko.de/ease/tables.html#",
+			"../img/",
+			"ease",
+			"../img/",
+			"../img",
+			"img",
+			"logo",
+			"ease/img",
+			"ease",
+			"sorting",
+			"sorting-asc",
+			"swf",
+			"copy_csv_xls_pdf",
+			"eroko",
+			"{{state}}",
+			"title",
 			"ADMIN_TITLE",
 			"title",
 			"  ",
@@ -817,23 +921,7 @@
 			"O_o.",
 			"O_o.caps_lock",
 			"capsLockEnabled",
-			"checkCapsWarning",
-			"c",
-			"keyCode",
-			"order",
-			");\n",
-			"btn_order_product",
-			"add_product_category",
-			"add_prod",
-			"added",
-			"product_select",
-			"btn_move_product",
-			"btn_remove_product",
-			"modal",
-			"resiz",
-			"hello",
-			"();\n",
-			"waiting"
+			"checkCapsWarning"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -841,6 +929,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"produced_by",
 			"	",
 			"return"
@@ -856,6 +945,277 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "application/views/admin/layout.blade.php",
+					"settings":
+					{
+						"buffer_size": 47728,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6623,
+								6623
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3017.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/views/admin/nav.blade.php",
+					"settings":
+					{
+						"buffer_size": 3455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								313,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/controllers/admin/dash.php",
+					"settings":
+					{
+						"buffer_size": 617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/libraries/adminMenu.php",
+					"settings":
+					{
+						"buffer_size": 1962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								562,
+								562
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/controllers/admin.php",
+					"settings":
+					{
+						"buffer_size": 948,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								668,
+								668
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "application/controllers/admin/page.php",
+					"settings":
+					{
+						"buffer_size": 528,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								136
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "storage/views/3b92d2f9982e5c93204799f71c7a46ce",
+					"settings":
+					{
+						"buffer_size": 3499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "application/libraries/layout.php",
+					"settings":
+					{
+						"buffer_size": 396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								325,
+								332
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/I/Open Server/domains/platus.dev/application/libraries/Layout.php",
+					"settings":
+					{
+						"buffer_size": 2776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								226
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -912,6 +1272,22 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"layou",
+				"application/libraries/layout.php"
+			],
+			[
+				"3b92d2f9982e5c93204799f71c7a46ce",
+				"storage/views/3b92d2f9982e5c93204799f71c7a46ce"
+			],
+			[
+				"w",
+				"laravel/cache/drivers/wincache.php"
+			],
+			[
+				"html",
+				"laravel/html.php"
+			],
 			[
 				"usarup",
 				"application/views/user_area/update_order.blade.php"
@@ -1345,10 +1721,6 @@
 				"laravel/url.php"
 			],
 			[
-				"html",
-				"laravel/html.php"
-			],
-			[
 				"braindex",
 				"application/views/branches/index.blade.php"
 			],
@@ -1411,18 +1783,6 @@
 			[
 				"citiesindex",
 				"application/views/cities/index.blade.php"
-			],
-			[
-				"user_areaupda",
-				"application/views/user_area/update_order.blade.php"
-			],
-			[
-				"glob",
-				"public/js/global.js"
-			],
-			[
-				"cat",
-				"public/js/categories.js"
 			]
 		],
 		"width": 0.0
