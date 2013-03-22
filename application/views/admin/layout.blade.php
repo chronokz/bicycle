@@ -70,51 +70,59 @@
 	<link rel="apple-touch-icon-precomposed" href="{{ asset('img/admin/favicon.png') }}">
 
 </head>
-
+<?php
+	$auth = Auth::user();
+?>
 <body data-layout="fixed">
 	<div id="top" style="position: fixed;" class="navbar-fixed-top"> 
 		<div class="container-fluid">
 			<div class="pull-left">
-				<a href="http://www.eakroko.de/ease/tables.html#" id="brand"><span></span>ease</a>
+				<a href="" id="brand"><span></span>Bicycle CMS</a>
+				<!--
 				<div class="collapse-me" style="">
 					<a href="http://www.eakroko.de/ease/messages.html" class="button">
 						<i class="icon-comment icon-white"></i>
 						Messages
 						<span class="badge badge-important">21</span>
 					</a>
-					<a href="http://www.eakroko.de/ease/tables.html#" class="button">
+					<a href="" class="button">
 						<i class="icon-question-sign icon-white"></i>
 						Support tickets
 						<span class="badge badge-info">3</span>
 					</a>
-					<a href="http://www.eakroko.de/ease/tables.html#" class="button">
+					<a href="" class="button">
 						<i class="icon-truck icon-white"></i>
 						Orders
 						<span class="badge badge-default">5</span>
 					</a>
 				</div>
+				-->
 			</div>
 			<div class="pull-right">
 				<div class="btn-group">
-					<a href="http://www.eakroko.de/ease/tables.html#" class="button dropdown-toggle" data-toggle="dropdown"><i class="icon-white icon-user"></i>John Doe<span class="caret"></span></a>
+					<a href="" class="button dropdown-toggle" data-toggle="dropdown">
+						<i class="icon-white icon-user"></i>
+						{{ $auth->username }}
+						<span class="caret"></span>
+					</a>
 					<div class="dropdown-menu pull-right">
 						<div class="right-details">
 							<h6>Logged in as</h6>
-							<span class="name">John Doe</span>
-							<span class="email">john.doe@example.com</span>
-							<a href="http://www.eakroko.de/ease/tables.html#" class="highlighted-link">Need help?</a>
+							<span class="name">{{ $auth->first_name }} {{ $auth->last_name }}</span>
+							<span class="email">{{ $auth->email }} </span>
+							<a href="" class="highlighted-link">Need help?</a>
 							<ul>
 								<li>
-									<a href="http://www.eakroko.de/ease/tables.html#">Getting started</a>
+									<a href="">Getting started</a>
 								</li>
 								<li>
-									<a href="http://www.eakroko.de/ease/tables.html#">Account settings</a>
+									<a href="">Account settings</a>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
-				<a href="http://www.eakroko.de/ease/index.html" class="button">
+				<a href="{{ URL::to('admin/logout') }}" class="button">
 					<i class="icon-signout"></i>
 					Logout
 				</a>
@@ -130,7 +138,7 @@
 					<input type="text" placeholder="Search here">
 				</form>
 				<div class="dropdown">
-					<a href="http://www.eakroko.de/ease/tables.html#" class="search-settings dropdown-toggle" data-toggle="dropdown"><i class="icon-cog icon-white"></i></a>
+					<a href="" class="search-settings dropdown-toggle" data-toggle="dropdown"><i class="icon-cog icon-white"></i></a>
 					<ul class="dropdown-menu">
 						<li class="sort-by">
 							Sort by <span class="filter">Categories</span> <span class="order">A-Z</span>
@@ -165,7 +173,7 @@
 					<a href="http://www.eakroko.de/ease/dashboard.html"><i class="icon-home icon-white"></i><span>Dashboard</span></a>
 				</li>
 				<li>
-					<a href="http://www.eakroko.de/ease/tables.html#"><i class="icon-edit icon-white"></i><span>Forms</span><span class="label">4</span></a>
+					<a href=""><i class="icon-edit icon-white"></i><span>Forms</span><span class="label">4</span></a>
 					<ul class="subnav">
 						<li>
 							<a href="http://www.eakroko.de/ease/basic-forms.html">Basic forms</a>
@@ -182,7 +190,7 @@
 					</ul>
 				</li>
 				<li>
-					<a href="http://www.eakroko.de/ease/tables.html#"><i class="icon-th-large icon-white"></i><span>Components</span><span class="label">6</span></a>
+					<a href=""><i class="icon-th-large icon-white"></i><span>Components</span><span class="label">6</span></a>
 					<ul class="subnav">
 						<li>
 							<a href="http://www.eakroko.de/ease/messages.html">Messages &amp; Chat</a>
@@ -220,7 +228,7 @@
 					<a href="http://www.eakroko.de/ease/file-management.html"><i class="icon-hdd icon-white"></i><span>File management</span></a>
 				</li>
 				<li>
-					<a href="http://www.eakroko.de/ease/tables.html#"><i class="icon-th icon-white"></i><span>More pages</span><span class="label">4</span></a>
+					<a href=""><i class="icon-th icon-white"></i><span>More pages</span><span class="label">4</span></a>
 					<ul class="subnav">
 						<li>
 							<a href="http://www.eakroko.de/ease/invoice.html">Invoice</a>
@@ -453,27 +461,27 @@
 									<div class="box-body box-body-nopadding">
 										<div class="highlight-toolbar">
 											<div class="pull-left"><div class="btn-toolbar">
-												<div class="btn-group"><a href="http://www.eakroko.de/ease/tables.html#" class="button button-basic button-icon" rel="tooltip" title="" data-original-title="Refresh results"><i class="icon-refresh"></i></a></div>
+												<div class="btn-group"><a href="" class="button button-basic button-icon" rel="tooltip" title="" data-original-title="Refresh results"><i class="icon-refresh"></i></a></div>
 												<div class="btn-group">
 													<div class="dropdown">
-														<a href="http://www.eakroko.de/ease/tables.html#" class="button button-basic button-icon" data-toggle="dropdown" rel="tooltip" title="" data-original-title="Mark elements"><i class="icon-check-empty"></i><span class="caret"></span></a>
+														<a href="" class="button button-basic button-icon" data-toggle="dropdown" rel="tooltip" title="" data-original-title="Mark elements"><i class="icon-check-empty"></i><span class="caret"></span></a>
 														<ul class="dropdown-menu">
-															<li><a href="http://www.eakroko.de/ease/tables.html#" class="sel-all">All</a></li>
-															<li><a href="http://www.eakroko.de/ease/tables.html#" class="sel-unread">Unread</a></li>
+															<li><a href="" class="sel-all">All</a></li>
+															<li><a href="" class="sel-unread">Unread</a></li>
 														</ul>
 													</div>
 												</div>
 												<div class="btn-group">
-													<a href="http://www.eakroko.de/ease/tables.html#" class="button button-basic button-icon" rel="tooltip" title="" data-original-title="Archive"><i class="icon-inbox"></i></a>
-													<a href="http://www.eakroko.de/ease/tables.html#" class="button button-basic button-icon" rel="tooltip" title="" data-original-title="Mark as spam"><i class="icon-exclamation-sign"></i></a>
-													<a href="http://www.eakroko.de/ease/tables.html#" class="button button-basic button-icon" rel="tooltip" title="" data-original-title="Delete"><i class="icon-trash"></i></a>
+													<a href="" class="button button-basic button-icon" rel="tooltip" title="" data-original-title="Archive"><i class="icon-inbox"></i></a>
+													<a href="" class="button button-basic button-icon" rel="tooltip" title="" data-original-title="Mark as spam"><i class="icon-exclamation-sign"></i></a>
+													<a href="" class="button button-basic button-icon" rel="tooltip" title="" data-original-title="Delete"><i class="icon-trash"></i></a>
 												</div>
 												<div class="btn-group">
 													<div class="dropdown">
-														<a href="http://www.eakroko.de/ease/tables.html#" class="button button-basic button-icon" data-toggle="dropdown" rel="tooltip" title="" data-original-title="Move to folder"><i class="icon-folder-close"></i><span class="caret"></span></a>
+														<a href="" class="button button-basic button-icon" data-toggle="dropdown" rel="tooltip" title="" data-original-title="Move to folder"><i class="icon-folder-close"></i><span class="caret"></span></a>
 														<ul class="dropdown-menu">
-															<li><a href="http://www.eakroko.de/ease/tables.html#">Some folder</a></li>
-															<li><a href="http://www.eakroko.de/ease/tables.html#">Another folder</a></li>
+															<li><a href="">Some folder</a></li>
+															<li><a href="">Another folder</a></li>
 														</ul>
 													</div>
 												</div>
@@ -484,18 +492,18 @@
 														<span><strong>1-25</strong> of <strong>348</strong></span>
 													</div>
 													<div class="btn-group">
-														<a href="http://www.eakroko.de/ease/tables.html#" class="button button-basic button-icon" data-toggle="dropdown"><i class="icon-angle-left"></i></a>
-														<a href="http://www.eakroko.de/ease/tables.html#" class="button button-basic button-icon" data-toggle="dropdown"><i class="icon-angle-right"></i></a>
+														<a href="" class="button button-basic button-icon" data-toggle="dropdown"><i class="icon-angle-left"></i></a>
+														<a href="" class="button button-basic button-icon" data-toggle="dropdown"><i class="icon-angle-right"></i></a>
 													</div>
 													<div class="btn-group">
 														<div class="dropdown">
-															<a href="http://www.eakroko.de/ease/tables.html#" class="button button-basic button-icon" data-toggle="dropdown"><i class="icon-cog"></i><span class="caret"></span></a>
+															<a href="" class="button button-basic button-icon" data-toggle="dropdown"><i class="icon-cog"></i><span class="caret"></span></a>
 															<ul class="dropdown-menu pull-right">
-																<li><a href="http://www.eakroko.de/ease/tables.html#">Settings</a></li>
-																<li><a href="http://www.eakroko.de/ease/tables.html#">Account settings</a></li>
-																<li><a href="http://www.eakroko.de/ease/tables.html#">Email settings</a></li>
-																<li><a href="http://www.eakroko.de/ease/tables.html#">Themes</a></li>
-																<li><a href="http://www.eakroko.de/ease/tables.html#">Help &amp; FAQ</a></li>
+																<li><a href="">Settings</a></li>
+																<li><a href="">Account settings</a></li>
+																<li><a href="">Email settings</a></li>
+																<li><a href="">Themes</a></li>
+																<li><a href="">Help &amp; FAQ</a></li>
 															</ul>
 														</div>
 													</div>
@@ -594,9 +602,9 @@
 											<div class="highlight-toolbar">
 												<div class="pull-left"><div class="btn-toolbar">
 													<div class="btn-group">
-														<a href="http://www.eakroko.de/ease/tables.html#" class="button button-basic button-icon" rel="tooltip" title="" data-original-title="Archive"><i class="icon-inbox"></i></a>
-														<a href="http://www.eakroko.de/ease/tables.html#" class="button button-basic button-icon" rel="tooltip" title="" data-original-title="Mark as spam"><i class="icon-exclamation-sign"></i></a>
-														<a href="http://www.eakroko.de/ease/tables.html#" class="button button-basic button-icon" rel="tooltip" title="" data-original-title="Delete"><i class="icon-trash"></i></a>
+														<a href="" class="button button-basic button-icon" rel="tooltip" title="" data-original-title="Archive"><i class="icon-inbox"></i></a>
+														<a href="" class="button button-basic button-icon" rel="tooltip" title="" data-original-title="Mark as spam"><i class="icon-exclamation-sign"></i></a>
+														<a href="" class="button button-basic button-icon" rel="tooltip" title="" data-original-title="Delete"><i class="icon-trash"></i></a>
 													</div>
 												</div></div>
 												<div class="pull-right">
@@ -605,8 +613,8 @@
 															<span><strong>1-25</strong> of <strong>348</strong></span>
 														</div>
 														<div class="btn-group">
-															<a href="http://www.eakroko.de/ease/tables.html#" class="button button-basic button-icon" data-toggle="dropdown"><i class="icon-angle-left"></i></a>
-															<a href="http://www.eakroko.de/ease/tables.html#" class="button button-basic button-icon" data-toggle="dropdown"><i class="icon-angle-right"></i></a>
+															<a href="" class="button button-basic button-icon" data-toggle="dropdown"><i class="icon-angle-left"></i></a>
+															<a href="" class="button button-basic button-icon" data-toggle="dropdown"><i class="icon-angle-right"></i></a>
 														</div>
 													</div>
 												</div>
@@ -690,17 +698,17 @@
 												</table>
 												<div class="bottom-table">
 													<div class="pull-left">
-														<a href="http://www.eakroko.de/ease/tables.html#" class="button button-basic">Another button</a>
+														<a href="" class="button button-basic">Another button</a>
 													</div>
 													<div class="pull-right"><div class="pagination pagination-custom">
 														<ul>
-															<li><a href="http://www.eakroko.de/ease/tables.html#"><i class="icon-double-angle-left"></i></a></li>
-															<li><a href="http://www.eakroko.de/ease/tables.html#">1</a></li>
-															<li class="active"><a href="http://www.eakroko.de/ease/tables.html#">2</a></li>
-															<li><a href="http://www.eakroko.de/ease/tables.html#">3</a></li>
-															<li><a href="http://www.eakroko.de/ease/tables.html#">4</a></li>
-															<li><a href="http://www.eakroko.de/ease/tables.html#">5</a></li>
-															<li><a href="http://www.eakroko.de/ease/tables.html#"><i class="icon-double-angle-right"></i></a></li>
+															<li><a href=""><i class="icon-double-angle-left"></i></a></li>
+															<li><a href="">1</a></li>
+															<li class="active"><a href="">2</a></li>
+															<li><a href="">3</a></li>
+															<li><a href="">4</a></li>
+															<li><a href="">5</a></li>
+															<li><a href=""><i class="icon-double-angle-right"></i></a></li>
 														</ul>
 													</div></div>
 												</div>
@@ -1136,16 +1144,16 @@
 									</div>
 									<div class="navi-functions">
 										<div class="btn-group btn-group-custom">
-											<a href="http://www.eakroko.de/ease/tables.html#" class="button button-square layout-not-fixed notify button-active" rel="tooltip" title="" data-notify-message="Fixed nav is now State" data-notify-title="Toggled fixed nav" data-original-title="Toggle fixed-nav">
+											<a href="" class="button button-square layout-not-fixed notify button-active" rel="tooltip" title="" data-notify-message="Fixed nav is now State" data-notify-title="Toggled fixed nav" data-original-title="Toggle fixed-nav">
 												<i class="icon-lock"></i>
 											</a>
-											<a href="http://www.eakroko.de/ease/tables.html#" class="button button-square layout-not-fluid notify button-active" rel="tooltip" title="" data-notify-message="Fixed layout is now State" data-notify-title="Toggled fixed layout" data-original-title="Toggle fixed-layout">
+											<a href="" class="button button-square layout-not-fluid notify button-active" rel="tooltip" title="" data-notify-message="Fixed layout is now State" data-notify-title="Toggled fixed layout" data-original-title="Toggle fixed-layout">
 												<i class="icon-exchange"></i>
 											</a>
-											<a href="http://www.eakroko.de/ease/tables.html#" class="button button-square notify notify-inverse layout-no-nav" rel="tooltip" title="" data-notify-message="Navigation is now State" data-notify-title="Toggled navigation" data-original-title="Toggle navigation">
+											<a href="" class="button button-square notify notify-inverse layout-no-nav" rel="tooltip" title="" data-notify-message="Navigation is now State" data-notify-title="Toggled navigation" data-original-title="Toggle navigation">
 												<i class="icon-arrow-left"></i>
 											</a>
-											<a href="http://www.eakroko.de/ease/tables.html#" class="button button-square button-active force-last notify-toggle toggle-active notify" rel="tooltip" title="" data-notify-message="Notifications turned State" data-notify-title="Toggled notifications" data-original-title="Toggle notification">
+											<a href="" class="button button-square button-active force-last notify-toggle toggle-active notify" rel="tooltip" title="" data-notify-message="Notifications turned State" data-notify-title="Toggled notifications" data-original-title="Toggle notification">
 												<i class="icon-bullhorn"></i>
 											</a>
 										</div>
