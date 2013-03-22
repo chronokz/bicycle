@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 return array(
 
@@ -13,7 +13,7 @@ return array(
 	|
 	*/
 
-	'previous' => '&laquo; Предыдущее',
-	'next'     => 'Следующее &raquo;',
+	'previous' => '← Назад',
+	'next'     => 'Вперёд →',
 
 );

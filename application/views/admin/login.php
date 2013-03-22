@@ -1,5 +1,5 @@
 <?php echo View::make('admin.inc.meta', get_defined_vars() )->render()?>
-    <title>Login &lt; <?php echo ADMIN_TITLE?></title>
+    <title>Login &lt; Title</title>
   </head>
   <body class="admin-sign-in">
       <div class="sign-in">

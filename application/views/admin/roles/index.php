@@ -1,5 +1,4 @@
 <?php echo View::make('admin.inc.meta', get_defined_vars() )->render()?>
-    <title><?php echo ADMIN_TITLE?></title>
   </head>
   <body>
     <?php echo View::make('admin.inc.header', get_defined_vars() )->render()?>

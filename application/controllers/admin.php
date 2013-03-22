@@ -2,6 +2,8 @@
 
 class Admin_Controller extends Base_Controller {
 
+    public $restful = true;
+
     // Our first stuff
     public function __construct(){
         // Make sure that the 'auth' function is run before ANYTHING else happens

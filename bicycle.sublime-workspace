@@ -560,6 +560,30 @@
 	},
 	"file_history":
 	[
+		"/I/Open Server/domains/bicycle/application/views/admin/inc/meta.php",
+		"/I/Open Server/domains/bicycle/application/views/admin/users/index.php",
+		"/I/Open Server/domains/bicycle/application/views/admin/users/form.php",
+		"/I/Open Server/domains/bicycle/application/views/admin/roles/index.php",
+		"/I/Open Server/domains/bicycle/application/views/admin/roles/form.php",
+		"/I/Open Server/domains/bicycle/application/views/admin/login.php",
+		"/I/Open Server/domains/bicycle/application/views/admin/index.php",
+		"/I/Open Server/domains/bicycle/application/views/admin/inc/sidebar.php",
+		"/I/Open Server/domains/bicycle/application/views/admin/inc/header.php",
+		"/I/Open Server/domains/bicycle/application/routes.php",
+		"/I/Open Server/domains/bicycle/application/views/site/layout.blade.php",
+		"/I/Open Server/domains/bicycle/application/start.php",
+		"/I/Open Server/domains/bicycle/application/views/site/travel/view.blade.php",
+		"/I/Open Server/domains/bicycle/application/views/site/home.blade.php",
+		"/I/Open Server/domains/bicycle/application/libraries/messages.php",
+		"/I/Open Server/domains/bicycle/application/libraries/uploadr.php",
+		"/I/Open Server/domains/bicycle/application/controllers/admin/users.php",
+		"/I/Open Server/domains/bicycle/application/controllers/admin/roles.php",
+		"/I/Open Server/domains/bicycle/application/controllers/admin/pages.php",
+		"/I/Open Server/domains/bicycle/application/controllers/admin/dash.php",
+		"/I/Open Server/domains/bicycle/application/libraries/layout.php",
+		"/I/Open Server/domains/bicycle/application/config/application.php",
+		"/I/Open Server/domains/bicycle/readme.md",
+		"/I/Open Server/domains/bicycle/.gitignore",
 		"/I/Open Server/domains/platus.dev/public/js/events.messenger.js",
 		"/I/Open Server/domains/platus.dev/application/views/orders/index.blade.php",
 		"/I/Open Server/domains/platus.dev/.chrono_for_mobileka",
@@ -663,31 +687,7 @@
 		"/I/Open Server/domains/platus.dev/laravel/view.php",
 		"/I/Open Server/domains/platus.dev/application/views/user_area/_products_list.blade.php",
 		"/I/Open Server/domains/platus.dev/application/views/users/profile.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/tests/create.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/groups/update.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/groups/create.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/components/update.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/components/create.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/cities/update.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/cities/create.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/categories/update.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/categories/create.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/units/create.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/units/update.blade.php",
-		"/I/Open Server/domains/platus.dev/storage/views/66ab25fd763080f8058f700953228d43",
-		"/I/Open Server/domains/platus.dev/application/views/tests/index.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/login/login.blade.php",
-		"/I/Open Server/domains/platus.dev/public/js/events.login.js",
-		"/I/Open Server/domains/platus.dev/public/js/moment.ru.js",
-		"/I/Open Server/domains/platus.dev/license.txt",
-		"/I/Open Server/domains/platus.dev/application/views/user_area/_product_select.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/layouts/default.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/render/modal.blade.php",
-		"/I/Open Server/domains/platus.dev/application/libraries/MenuItem.php",
-		"/I/Open Server/domains/platus.dev/laravel/cookie.php",
-		"/I/Open Server/domains/platus.dev/application/libraries/Menu.php",
-		"/I/Open Server/domains/platus.dev/public/js/moment.js",
-		"/I/Open Server/domains/platus.dev/application/start.php"
+		"/I/Open Server/domains/platus.dev/application/views/tests/create.blade.php"
 	],
 	"find":
 	{
@@ -706,6 +706,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ADMIN_TITLE",
+			"title",
+			"  ",
 			"created",
 			"producted_by",
 			"noticed_by",
@@ -830,10 +833,7 @@
 			"resiz",
 			"hello",
 			"();\n",
-			"waiting",
-			"{{ HTML",
-			"}}",
-			" }}"
+			"waiting"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1434,7 +1434,7 @@
 		[
 			[
 				"",
-				"/I/Open Server/domains/deathnote.chrono.kz/deathnote.chrono.kz.sublime-project"
+				"/I/Open Server/domains/platus.dev/application/config/platus.sublime-project"
 			]
 		],
 		"width": 380.0

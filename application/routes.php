@@ -1,12 +1,4 @@
 <?php
-// Define some constants
-define('COMPANY_NAME','Photocard');
-define('CONTACT_EMAIL','chrono@smtp.ru');
-define('CONTACT_NAME','chrono');
-
-define('TECHNICAL_NAME','Alexander Mikhailov');
-define('TECHNICAL_EMAIL','chrono@smtp.ru');
-define('ADMIN_TITLE','Admin Photocard');
 
 Route::get('admin/setup',function(){
 	if(Setup::setup_complete()){
@@ -45,41 +37,16 @@ Route::post('admin/setup',function(){
 
 // Register the admin controller
 // Route::controller('admin.dash'); // I don't think I need this...
-Route::controller('admin.news');
 Route::controller('admin.users');
 Route::controller('admin.roles');
-Route::controller('admin.sections');
-Route::controller('admin.gallery');
-Route::controller('admin.images');
-Route::controller('admin.textes');
-Route::controller('admin.tips');
-Route::controller('admin.pages');
-Route::controller('admin.help');
-Route::controller('admin.frames_gallery');
-Route::controller('admin.frames');
+Route::controller('admin.page');
 
 Route::get('admin/dashboard', 'admin.dash@index');
 Route::any('admin/(:any?)', array('defaults' => 'index', 'uses' => 'admin.dash@(:1)'));
 
-// Facebook
-Route::get('fb/cards', 'fb.cards@index');
-Route::get('fb/cards/unliked', 'fb.cards@unliked');
-Route::get('fb/cards/create/(:num)', 'fb.cards@create');
-Route::get('fb/cards/link/(:any)', 'fb.cards@link');
-Route::get('fb/cards/social/(:any)', 'fb.cards@social');
-Route::get('fb/cards/email/(:any)', 'fb.cards@email');
-
 // Frontend routing
 Route::any('(:any)', array('uses' => 'page@index'));
 Route::any('/', 'page@index');
-Route::get('/postcard', 'postcard@index');
-Route::get('/postcard/create/(:num)', 'postcard@create');
-Route::get('/postcard/link/(:any)', 'postcard@link');
-Route::get('/postcard/social/(:any)', 'postcard@social');
-Route::get('/postcard/email/(:any)', 'postcard@email');
-Route::post('/postcard/create', 'postcard@create');
-Route::get('/travel', 'travel@index');
-Route::get('/travel/view/(:any)', 'travel@view');
 
 
 

@@ -6,13 +6,11 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</a>
-			<a class="brand" href="<?php echo url('admin/dashboard')?>"><?php echo ADMIN_TITLE?></a>
+			<a class="brand" href="<?php echo url('admin/dashboard')?>">Title</a>
 			<div class="nav-collapse">
 				<ul class="nav">
 					<li class="<?php echo ( URI::is('admin/dashboard') ? 'active' : false )?>"><a href="<?php echo url('admin/dashboard')?>">Home</a></li>
-					<li class="<?php echo ( URI::segment(2) == 'news' ? 'active' : false )?>"><a href="<?php echo url('admin/news')?>">News</a></li>
-					<li class="<?php echo ( URI::segment(2) == 'gallery' || URI::segment(2) == 'images' ? 'active' : false )?>"><a href="<?php echo url('admin/gallery')?>">Galleries</a></li>
-					<li class="<?php echo ( URI::segment(2) == 'pages' || URI::segment(2) == 'sections' ? 'active' : false )?>"><a href="<?php echo url('admin/pages')?>">Pages</a></li>
+				
 					<li class="<?php echo ( URI::segment(2) == 'users' || URI::segment(2) == 'roles' ? 'active' : false )?>"><a href="<?php echo url('admin/users')?>">Users &amp; Roles</a></li>
 				</ul>
 				<ul class="nav pull-right">
