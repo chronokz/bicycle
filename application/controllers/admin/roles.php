@@ -8,7 +8,7 @@ class Admin_Roles_Controller extends Admin_Controller
 	public function get_index()
 	{
 		$this->data[$this->views] = Role::order_by('id','asc')->get();
-		return View::make('admin.'.$this->views.'.index',$this->data);
+		return Layout::admin($this->views.'.index', array(), $this->data);
 	}
 
 	public function get_edit($object_id = false){

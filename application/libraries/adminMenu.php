@@ -77,7 +77,7 @@ class AdminMenu{
 				}
 
 				$result .= '<li'.($active_li?' class"active"':'').'>
-								<a href="'.url($sub_item['link']).'">'.$sub_item['text'].'</a>
+								<a href="'.url(static::$url_admin.$sub_item['link']).'">'.$sub_item['text'].'</a>
 							</li>';
 			}
 			$result .='</ul>';

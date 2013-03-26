@@ -25,3 +25,4 @@ This is a CMS designed for rapid development on the basis of the framework Larav
 - jQuery Nicescroll
 - TableTools
 - Copy CSV XLS PDF Converter
+- Sass

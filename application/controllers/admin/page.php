@@ -3,11 +3,16 @@
 class Admin_Page_Controller extends Admin_Controller
 {
 	public $view = 'page.';
+	public $layout_data = array(
+			'icon' => 'font',
+			'title' => 'Pages'
+		);
 
 
 	public function get_index()
 	{
-		return Layout::admin($this->view.'index');
+		Lang::load('application', 'admin', 'ru');
+		return Layout::admin($this->view.'index', $this->layout_data);
 	}
 
 	public function get_logout(){

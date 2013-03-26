@@ -66,8 +66,8 @@
 	<!-- Theme scripts -->
 	<!--script src="./tables_files/application.min.js"></script-->
 	{{ HTML::script('js/admin/application.min.js') }}
-	<link rel="shortcut icon" href="{{ asset('img/admin/favicon.png') }}">
-	<link rel="apple-touch-icon-precomposed" href="{{ asset('img/admin/favicon.png') }}">
+	<link rel="shortcut icon" href="{{ asset('img/admin/favicon.jpg') }}">
+	<link rel="apple-touch-icon-precomposed" href="{{ asset('img/admin/favicon.jpg') }}">
 
 </head>
 <?php
@@ -187,13 +187,12 @@
 		<div id="content" style="padding-top: 40px;">
 			<div class="page-header">
 				<div class="pull-left">
-					
-					<h4><i class="icon-table"></i> Tables</h4>
+					<h4><i class="icon-{{ $icon }}"></i> {{ $title }} </h4>
 				</div>
 				<div class="pull-right">
 					<ul class="bread">
-						<li><a href="http://www.eakroko.de/ease/dashboard.html">Home</a><span class="divider">/</span></li>
-						<li class="active">Tables</li>
+						<li>{{ HTML::link('admin', __('Home')) }}<span class="divider">/</span></li>
+						<li class="active">{{ $title }}</li>
 					</ul>
 				</div>
 			</div>
