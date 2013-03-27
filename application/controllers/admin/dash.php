@@ -5,7 +5,7 @@ class Admin_Dash_Controller extends Admin_Controller
 
 	public function get_index()
 	{
-		return Layout::admin('dash.index', $this->data);
+		return Layout::admin('dash.index', $this->layout_data, $this->data);
 	}
 
 	// Login Stuff

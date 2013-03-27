@@ -1,13 +1,7 @@
 <?php
-class Page extends Eloquent {
+class Page extends Base_Model {
 
 	public static $timestamps = true;
-	public function section()
-	{
-		return $this->has_many('Cmssection','page_id');
-	}
-	public function user()
-	{
-		return $this->belongs_to('User');
-	}
+	//public static $table = 'page';
+
 }

@@ -5,6 +5,10 @@ class Admin_Controller extends Base_Controller {
 
     public $restful = true;
     public $name = '';
+    public $layout_data = array(
+            'icon' => 'file',
+            'title' => 'Module'
+        );
 
     // Our first stuff
     public function __construct(){

@@ -12,7 +12,9 @@ class Admin_Page_Controller extends Admin_Controller
 	public function get_index()
 	{
 		Lang::load('application', 'admin', 'ru');
-		return Layout::admin($this->view.'index', $this->layout_data);
+		return Layout::admin($this->view.'index', $this->layout_data, array(
+				'pages' => Page::all()
+			));
 	}
 
 	public function get_logout(){

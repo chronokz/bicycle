@@ -70,7 +70,7 @@ return array(
 		'mysql' => array(
 			'driver'   => 'mysql',
 			'host'     => 'localhost',
-			'database' => 'bicycle',
+			'database' => 'standard',
 			'username' => 'bicycle',
 			'password' => '',
 			'charset'  => 'utf8',
