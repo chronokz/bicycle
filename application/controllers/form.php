@@ -1,6 +1,6 @@
 <?php
 
-class Home_Controller extends Base_Controller {
+class Form_Controller extends Base_Controller {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -30,9 +30,9 @@ class Home_Controller extends Base_Controller {
 	|
 	*/
 
-	public $view = 'home.';
+	public $view = 'form.';
 
-	public function action_index()
+	public function manager()
 	{
 		//return View::make('home.index');
 		return Layout::site($this->view.'index', $this->layout_data, array(

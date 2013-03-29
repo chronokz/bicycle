@@ -8,6 +8,12 @@ class Layout {
 			->nest('content', 'admin.'.$view, $data);
 	}
 
+	public static function site($view, $layout_data = array(), $data = array())
+	{
+		return View::make('site.layout', $layout_data)
+			->nest('content', 'site.'.$view, $data);
+	}
+
 	public static function view($view, $data=array(), $title='')
 	{
 		return View::make('site.layout', array(

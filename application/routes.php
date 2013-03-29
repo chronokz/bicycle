@@ -46,7 +46,8 @@ Route::any('admin/(:any?)', array('defaults' => 'index', 'uses' => 'admin.dash@(
 
 // Frontend routing
 Route::any('(:any)', array('uses' => 'page@index'));
-Route::any('/', 'page@index');
+Route::any('/', 'home@index');
+Route::any('manager', 'form@manager');
 
 
 
