@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"include"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ta",
+				"tal	text-align-last"
+			],
+			[
+				"font",
+				"font_fam"
+			],
+			[
+				"la",
+				"layout_data"
+			],
+			[
+				"a",
+				"array"
+			],
+			[
 				"con",
 				"content"
 			],
@@ -48,10 +76,6 @@
 				"margin-top"
 			],
 			[
-				"a",
-				"auto"
-			],
-			[
 				"message",
 				"message_class"
 			],
@@ -78,10 +102,6 @@
 			[
 				"close",
 				"closest"
-			],
-			[
-				"in",
-				"input	Tag"
 			],
 			[
 				"rep",
@@ -150,10 +170,6 @@
 			[
 				"paddin",
 				"padding-right"
-			],
-			[
-				"margin",
-				"margin"
 			],
 			[
 				"text",
@@ -246,10 +262,6 @@
 			[
 				"p",
 				"product"
-			],
-			[
-				"font",
-				"font-weight"
 			],
 			[
 				"hid",
@@ -502,68 +514,24 @@
 			[
 				"br",
 				"btn_edit_product"
-			],
-			[
-				"fun",
-				"function"
-			],
-			[
-				"ex",
-				"exit"
-			],
-			[
-				"json",
-				"json_encode"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "application/views/admin/nav.blade.php",
+			"file": "application/controllers/form.php",
 			"settings":
 			{
-				"buffer_size": 3455,
+				"buffer_size": 3843,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "application/libraries/adminMenu.php",
+			"file": "application/views/site/form/manager.blade.php",
 			"settings":
 			{
-				"buffer_size": 1981,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "application/views/admin/layout.blade.php",
-			"settings":
-			{
-				"buffer_size": 47718,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "application/language/ru/admin.php",
-			"settings":
-			{
-				"buffer_size": 44,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "application/controllers/admin/page.php",
-			"settings":
-			{
-				"buffer_size": 670,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "application/libraries/layout.php",
-			"settings":
-			{
-				"buffer_size": 392,
+				"buffer_size": 1883,
 				"line_ending": "Windows"
 			}
 		},
@@ -571,16 +539,40 @@
 			"file": "application/start.php",
 			"settings":
 			{
-				"buffer_size": 5814,
+				"buffer_size": 5868,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "laravel/helpers.php",
+			"file": "application/routes.php",
 			"settings":
 			{
-				"buffer_size": 12699,
+				"buffer_size": 3622,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/controllers/base.php",
+			"settings":
+			{
+				"buffer_size": 506,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/views/site/layout.blade.php",
+			"settings":
+			{
+				"buffer_size": 1372,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/style.sass",
+			"settings":
+			{
+				"buffer_size": 1828,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -636,6 +628,36 @@
 	},
 	"file_history":
 	[
+		"/C/OpenServer/domains/standard/sass/style.sass",
+		"/C/OpenServer/domains/standard/public/css/jquery.selectBox.css",
+		"/C/OpenServer/domains/standard/public/js/init.js",
+		"/C/OpenServer/domains/standard/application/libraries/scaptcha.php",
+		"/C/OpenServer/domains/standard/public/captcha.php",
+		"/C/OpenServer/domains/standard/application/config/session.php",
+		"/C/OpenServer/domains/standard/config.rb",
+		"/C/OpenServer/domains/standard/application/controllers/home.php",
+		"/C/OpenServer/domains/standard/application/libraries/layout.php",
+		"/C/OpenServer/domains/standard/application/views/site/home/index.blade.php",
+		"/C/OpenServer/domains/standard/application/controllers/manager.blade.php",
+		"/C/OpenServer/domains/standard/application/controllers/call.php",
+		"/C/OpenServer/domains/standard/application/controllers/base.php",
+		"/C/OpenServer/domains/standard/application/views/site/layout.blade.php",
+		"/C/OpenServer/domains/standard/application/routes.php",
+		"/C/OpenServer/domains/standard/application/controllers/form.php",
+		"/C/OpenServer/domains/standard/laravel/html.php",
+		"/C/OpenServer/domains/standard/application/views/site/home.blade.php",
+		"/C/OpenServer/domains/standard/application/controllers/admin/users.php",
+		"/C/OpenServer/domains/standard/application/views/admin/users/index.php",
+		"/C/OpenServer/domains/standard/application/views/admin/page/index.blade.php",
+		"/C/OpenServer/domains/standard/application/controllers/admin/page.php",
+		"/C/OpenServer/domains/standard/application/views/admin/layout.blade.php",
+		"/C/OpenServer/domains/standard/application/models/base_model.php",
+		"/C/OpenServer/domains/standard/application/models/page.php",
+		"/C/OpenServer/domains/standard/application/start.php",
+		"/C/OpenServer/domains/standard/application/models/base.php",
+		"/C/OpenServer/domains/standard/application/controllers/admin/dash.php",
+		"/C/OpenServer/domains/standard/application/controllers/admin.php",
+		"/C/OpenServer/domains/standard/application/config/database.php",
 		"/I/Open Server/domains/bicycle/application/views/admin/layout.blade.php",
 		"/I/Open Server/domains/bicycle/application/views/admin/roles/index.php",
 		"/I/Open Server/domains/bicycle/application/controllers/admin/roles.php",
@@ -733,37 +755,7 @@
 		"/I/Open Server/domains/platus.dev/application/libraries/ImageProcessor.php",
 		"/I/Open Server/domains/platus.dev/application/models/branch.php",
 		"/I/Open Server/domains/platus.dev/application/models/category.php",
-		"/I/Open Server/domains/platus.dev/laravel/routing/router.php",
-		"/I/Open Server/domains/platus.dev/application/libraries/Tpl.php",
-		"/I/Open Server/domains/platus.dev/application/views/cities/index.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/users/deleted.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/units/deleted.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/groups/deleted.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/cities/deleted.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/branches/deleted.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/units/index.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/groups/index.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/branches/removed.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/branches/index.blade.php",
-		"/I/Open Server/domains/platus.dev/public/js/O_o.js",
-		"/I/Open Server/domains/platus.dev/application/libraries/Acl.php",
-		"/I/Open Server/domains/platus.dev/application/migrations/2013_03_07_181306_create_customers_table.php",
-		"/I/Open Server/domains/platus.dev/application/views/order/show.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/order/show_order.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/customers/create.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/customers/update.blade.php",
-		"/I/Open Server/domains/platus.dev/application/controllers/customers.php",
-		"/I/Open Server/domains/platus.dev/application/views/customers/show.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/branches/update.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/branches/create.blade.php",
-		"/I/Open Server/domains/platus.dev/application/language/ru/validation.php",
-		"/I/Open Server/domains/platus.dev/.mobileka_for_chrono",
-		"/I/Open Server/domains/platus.dev/application/views/product_manager/_categories.blade.php",
-		"/I/Open Server/domains/platus.dev/application/views/render/top_menu.blade.php",
-		"/I/Open Server/domains/platus.dev/laravel/form.php",
-		"/I/Open Server/domains/platus.dev/application/views/order/messages/index.blade.php",
-		"/I/Open Server/domains/platus.dev/application/controllers/login.php",
-		"/I/Open Server/domains/platus.dev/.mobileka"
+		"/I/Open Server/domains/platus.dev/laravel/routing/router.php"
 	],
 	"find":
 	{
@@ -783,6 +775,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"20",
+			"selectBox",
+			"  ",
+			">\n",
+			"button",
+			"map",
+			"model",
+			"Elo",
+			"El",
+			"Elo",
+			"icon",
 			"logo",
 			"username",
 			".username",
@@ -899,18 +902,7 @@
 			"eye-close",
 			"close",
 			"eye-close",
-			"Заблокировать",
-			"k",
-			"icon-minus-sign",
-			"админ",
-			"icon-list-alt",
-			"product_select",
-			"btn_pack_product",
-			"order",
-			":visible",
-			"clone",
-			"tr.prod",
-			"attr"
+			"Заблокировать"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -932,23 +924,53 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "application/views/admin/nav.blade.php",
+					"file": "application/controllers/form.php",
 					"settings":
 					{
-						"buffer_size": 3455,
+						"buffer_size": 3843,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								72,
-								76
+								2041,
+								2041
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 469.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/views/site/form/manager.blade.php",
+					"settings":
+					{
+						"buffer_size": 1883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								339,
+								339
 							]
 						],
 						"settings":
@@ -966,49 +988,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "application/libraries/adminMenu.php",
-					"settings":
-					{
-						"buffer_size": 1981,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1331,
-								1331
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 702.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "application/views/admin/layout.blade.php",
+					"file": "application/start.php",
 					"settings":
 					{
-						"buffer_size": 47718,
+						"buffer_size": 5868,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6780,
-								6780
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1020,25 +1012,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2106.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "application/language/ru/admin.php",
+					"file": "application/routes.php",
 					"settings":
 					{
-						"buffer_size": 44,
+						"buffer_size": 3622,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								44,
-								44
+								1726,
+								1726
 							]
 						],
 						"settings":
@@ -1046,28 +1038,30 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 72.0,
+						"translation.y": 462.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "application/controllers/admin/page.php",
+					"file": "application/controllers/base.php",
 					"settings":
 					{
-						"buffer_size": 670,
+						"buffer_size": 506,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								239,
-								239
+								153,
+								153
 							]
 						],
 						"settings":
@@ -1086,48 +1080,18 @@
 				},
 				{
 					"buffer": 5,
-					"file": "application/libraries/layout.php",
+					"file": "application/views/site/layout.blade.php",
 					"settings":
 					{
-						"buffer_size": 392,
+						"buffer_size": 1372,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								157,
-								157
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "application/start.php",
-					"settings":
-					{
-						"buffer_size": 5814,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4302,
-								4340
+								838,
+								838
 							]
 						],
 						"settings":
@@ -1138,25 +1102,25 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2155.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "laravel/helpers.php",
+					"buffer": 6,
+					"file": "sass/style.sass",
 					"settings":
 					{
-						"buffer_size": 12699,
+						"buffer_size": 1828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								460,
-								464
+								1083,
+								1083
 							]
 						],
 						"settings":
@@ -1164,11 +1128,11 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 756.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1230,6 +1194,14 @@
 		"selected_items":
 		[
 			[
+				"sass",
+				"sass/style.sass"
+			],
+			[
+				"html",
+				"laravel/html.php"
+			],
+			[
 				"adminmenu",
 				"application/libraries/adminMenu.php"
 			],
@@ -1254,16 +1226,8 @@
 				"laravel/cache/drivers/wincache.php"
 			],
 			[
-				"html",
-				"laravel/html.php"
-			],
-			[
 				"usarup",
 				"application/views/user_area/update_order.blade.php"
-			],
-			[
-				"sass",
-				"application/sass/index.sass"
 			],
 			[
 				"message_list",
@@ -1751,7 +1715,7 @@
 		[
 			[
 				"",
-				"/I/Open Server/domains/platus.dev/application/config/platus.sublime-project"
+				"/C/wamp/www/alcelor.sublime-project"
 			]
 		],
 		"width": 380.0

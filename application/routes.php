@@ -49,7 +49,10 @@ Route::any('(:any)', array('uses' => 'page@index'));
 Route::any('/', 'home@index');
 Route::any('manager', 'form@manager');
 
-
+Route::get('captcha', function()
+{
+    return scaptcha::create_image();
+});
 
 
 /*

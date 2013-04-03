@@ -1,0 +1,121 @@
+@import 'compass/css3'
+
+$font_alt: "Myriad Pro", "PFDinDisplayPro"
+$font_fam: "Trebuchet MS", sans-serif
+
+
+$body_back: #e4e4e4
+$menu_back: #252525
+$menu_color: #fff
+$menu_active: #ddb219
+
+body
+	font: 14px/21px $font_fam
+	margin: 0
+
+input[type="radio"], input[type="checkbox"]
+	margin: 0
+	margin-right: 5px
+
+#body
+	width: 600px
+	margin: 0 auto
+	background: $body_back
+
+#main_menu
+	font-family: $font_alt
+	background: $menu_back
+	list-style: none
+	margin: 0
+	padding: 0
+	height: 70px
+	li
+		width: 25%
+		line-height: 35px
+		margin: 0
+		float: left
+		text-align: center
+	li a
+		color: $menu_color
+		text-decoration: none
+	li.active a
+		color: $menu_active
+
+#content
+	width: 600px
+	margin: 0 auto
+
+.ltd
+	text-align: right
+	width: 50%
+	padding-right: 5px
+	padding-bottom: 10px
+
+.rtd
+	text-align: left
+	width: 50%
+	padding-left: 5px
+
+.header
+	width: 100%
+	height: 100px
+	background: image-url('header.jpg')
+
+.footer
+	width: 100%
+	height: 26px
+	background: image-url('footer.jpg')
+
+.line
+	background: image-url('line.png') repeat-x
+	height: 47px
+	
+.form
+	background: image-url('back.jpg') #627681
+	padding-top: 20px
+	color: #fff
+
+	input[type="text"]
+		height: 15px
+		line-height: 15px
+		border: 1px solid #f7bd2b
+		//&:focus
+			@include box-shadow(inset 0 1px 1px rgba(0,0,0,0.075),0 0 3px rgba(247,189,43,1))
+	select, input[type="file"]
+		height: 15px
+		line-height: 15px
+	.selectBox
+		height: 24px
+		line-height: 15px
+	.red input
+		border: 1px solid #900
+
+#mainForm
+	padding: 35px
+
+#btnCont
+	text-align: center
+	margin-top: 20px
+
+#keystring
+	width: 50px
+
+#imgCaptcha
+	vertical-align: middle
+	margin-left: 12px
+	margin-bottom: 10px
+
+.finalMes
+	padding: 45px 120px 105px
+	font-size: 16px
+
+.finalMes a
+	color: #f7bd2b
+
+#fieldsErrors
+	display: block
+	position: absolute
+	width: 530px
+	text-align: center
+	margin-top: -28px
+	color: #B82A2A

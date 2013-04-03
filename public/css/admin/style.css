@@ -19,7 +19,7 @@
 
 a [class^="icon-"], a [class*=" icon-"] { display: inline-block; }
 
-.icon-large:before { vertical-align: -10%; font-size: 1.333em; }
+.icon-large:before { vertical-align: -10%; font-size: 1.33333em; }
 
 .btn [class^="icon-"], .btn [class*=" icon-"] { display: inline; }
 
@@ -43,9 +43,9 @@ li [class^="icon-"], li [class*=" icon-"] { display: inline-block; width: 1.25em
 
 .nav li [class^="icon-"], .nav li [class*=" icon-"] { display: inline-block; width: 1.25em; text-align: center; }
 
-li [class^="icon-"].icon-large, li [class*=" icon-"].icon-large { width: 1.563em; }
+li [class^="icon-"].icon-large, li [class*=" icon-"].icon-large { width: 1.5625em; }
 
-.nav li [class^="icon-"].icon-large, .nav li [class*=" icon-"].icon-large { width: 1.563em; }
+.nav li [class^="icon-"].icon-large, .nav li [class*=" icon-"].icon-large { width: 1.5625em; }
 
 ul.icons { list-style-type: none; text-indent: -0.75em; }
 ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: 0.75em; }

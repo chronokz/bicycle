@@ -3,6 +3,7 @@
 class Base_Controller extends Controller {
 
 	// Setup our $data ($this->data) variable for use throughout our controllers
+	public $restful = true;
 	public $data = array();
 	public $name = '';
 	public $layout_data = array(
